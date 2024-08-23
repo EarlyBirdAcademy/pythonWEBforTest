@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my webpage</title>
+        <style>
+          @media print{
+            .screen-only{
+                display:none;
+            }            
+          }
+          @media (max-width:499px){
+            body{
+                background-color: blue;
+            }
+          }
+        </style>
+    </head>
+    <body>        
+        <p>This is a first paragraph</p>
+        <p>This is the second paragraph</p>
+        <p class = "screen-only">This paragraph is screen screen-only </p>
+    </body>
+
+</html>
